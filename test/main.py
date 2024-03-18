@@ -6,7 +6,6 @@ import unittest
 class TestCases_0(unittest.TestCase):
     def test_0(self):
         os.system('pip install -U morphomics')
-
         from morphomics import protocols, utils
         import tomli
 
